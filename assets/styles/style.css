@@ -161,28 +161,39 @@ main {
 .home {
   padding: 150px 0;
   text-align: center;
-  color: #888888;
+  color: black;
 }
 
 .home h2 {
-  font-size: 30px;
+  font-size: 50px;
   margin-bottom: 40px;
+  color: blue;
 }
 
 .home p {
   font-size: 25px;
+  color: black;
+  line-height: normal;
 }
 
 .about_title {
   font-size: 50px;
   text-align: center;
   padding-top: 10px;
+  color: blue;
+  
 }
 
 .about_content {
   font-size: 20px;
   text-align: center;
   padding-top: 20px;
+}
+
+.about_content p {
+  ont-size: 20px;
+  color: black;
+  line-height: normal;
 }
 
 .about__images {
@@ -219,6 +230,8 @@ main {
 
 .services p {
   font-size: 20px;
+  color: black;
+  line-height: normal;
 }
 
 /* notice */
@@ -287,7 +300,11 @@ main {
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 7;
+}
+
+footer {
+  text-align: center;
 }
 
 /* レスポンシブ対応 */
@@ -308,20 +325,7 @@ main {
   }
 }
 
-.service_content_item_date {
-  font-size: 14px;
-  font-weight: bold;
-  color: #005bac;
-}
 
-.service_content_item_body {
-  font-size: 14px;
-  color: #333333;
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-}
 
 /* SEC05 PROFILE
 ------------------------------------------------------------*/
